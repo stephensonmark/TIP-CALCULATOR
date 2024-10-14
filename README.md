@@ -6,4 +6,6 @@ The calcTip function applies this logic, and for each bill in the bills array, i
 pushing both the tips and total amounts (bill + tip) into the tips and totals arrays.
 Finally, the calcAverage function computes the average of any given array,
 which is used to calculate the average of both the totals and tips.
+
+
 ![Screenshot 2024-10-14 163708](https://github.com/user-attachments/assets/6c2e6c48-c613-41e2-bfdb-94d943a9ec81)
