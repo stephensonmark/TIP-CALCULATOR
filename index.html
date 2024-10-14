@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tip Calculator</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to top left, #287eb4, #5466ec);
+      }
+      h1 {
+        font-family: sans-serif;
+        font-size: 70px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+
+      h2 {
+        font-family: sans-serif;
+        font-size: 40px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+      h3 {
+        font-family: sans-serif;
+        font-size: 25px;
+        line-height: 1.3;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TIP CALCULATOR</h1>
+    <h2>Open Console CTRL-SHIFT-I</h2>
+    <h3>
+      This JavaScript code calculates the tips based on User Inputted bill
+      amounts,<br />
+      where: 15% is tipped for bills between 50 and 300. 20% is tipped for bills
+      outside this range.<br />
+      The <i>calcTip</i> function applies this logic, and for each bill in the
+      <i>bills</i> array, it calculates the corresponding tip,<br />
+      pushing both the tips and total amounts (bill + tip) into the
+      <i>tips</i> and <i>totals</i> arrays.<br />
+      Finally, the <i>calcAverage</i> function computes the average of any given
+      array,<br />
+      which is used to calculate the average of both the totals and tips.
+    </h3>
+    <script src="script.js"></script>
+  </body>
+</html>
